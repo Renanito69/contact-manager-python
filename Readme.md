@@ -1,116 +1,40 @@
-📒 Agenda de Contatos — Python (Modo Terminal)
+# Agenda de Contatos - Python
 
-Este projeto é uma agenda simples de contatos feita em Python, executada diretamente no terminal.
-O objetivo é praticar:
+Este projeto é uma **Agenda de Contatos** feita em Python utilizando
+listas, dicionários e funções para organizar nomes e telefones.
 
-Estruturas de dados (listas e dicionários)
+## 📌 Funcionalidades
 
-Funções
+-   Adicionar contatos
+-   Listar todos os contatos
+-   Buscar contatos pelo nome
+-   Remover contatos
+-   Interface simples no terminal
+-   Limpeza automática da tela
+-   Formatação do nome dos contatos
 
-Manipulação de terminal (os.system("cls"))
+## 📁 Estrutura
 
-Estrutura de menus
+-   Entrada de dados pelo terminal
+-   Armazenamento em memória (lista)
+-   Uso de funções para modularização
+-   ASCII art como título
 
-Lógica de CRUD (mesmo que incompleto por enquanto)
+## ▶ Como executar
 
-🎯 Funcionalidades Atuais
+1.  Instale o Python 3+
+2.  Execute no terminal:
 
-No estado atual do projeto, já foi implementado:
+```{=html}
+<!-- -->
+```
+    python agenda.py
 
-✔ 1. Adicionar Contato
+## 👨‍💻 Tecnologias usadas
 
-O usuário informa nome e telefone
+-   Python 3
+-   os.system para limpar tela
 
-Os dados são armazenados como dicionário dentro de uma lista
+## 📝 Autor
 
-contato = {
-    "nome": "...",
-    "telefone": 00000000
-}
-
-✔ 2. Listar Todos os Contatos
-
-Mostra todos os contatos cadastrados no formato:
-
-Nome -> Telefone
-
-✔ 3. Menu Interativo
-
-Interface pelo terminal
-
-Limpa a tela automaticamente
-
-Aguarda tecla para voltar ao menu
-
-🚧 Funcionalidades Pendentes (a implementar)
-
-❌ Remover contatos
-
-❌ Buscar contatos
-
-❌ Verificação de erros (nome vazio, telefone inválido, etc.)
-
-❌ Salvar contatos em arquivo
-
-Você poderá implementá-las ao longo dos próximos desafios.
-
-📁 Estrutura Atual do Código
-import os
-
-def adicionar_contatos(lista_contatos):
-    ...
-
-def listar_contato(lista_Contatos):
-    ...
-
-def perguntar_e_limpar():
-    ...
-
-def remover_contato(lista_Contatos):
-    pass
-
-def buscar_contato(lista_Contatos):
-    pass
-
-▶ Como Executar
-
-Instale o Python 3+
-
-Salve o arquivo como agenda.py
-
-Execute:
-
-python agenda.py
-
-🧠 Objetivo do Desafio
-
-Esse projeto faz parte do Desafio 1 – Agenda Simples, do seu cronograma de estudo.
-Ele tem como finalidade treinar:
-
-Manipulação de listas
-
-Dicionários
-
-Funções
-
-Lógica de menus
-
-CRUD básico
-
-Depois de completar essa versão simples, você poderá evoluir para:
-
-✔ Busca inteligente
-✔ Remoção por nome
-✔ Salvar em arquivo (JSON)
-✔ Ordenação alfabética
-✔ Interface mais limpa
-
-💡 Próximos Passos Sugeridos
-
-Implementar a função remover_contato
-
-Implementar buscar_contato
-
-Evitar números repetidos
-
-Transformar em classe futuramente (POO)
+Renan Cristian
