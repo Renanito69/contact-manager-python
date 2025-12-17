@@ -1,4 +1,4 @@
-# Agenda de Contatos - Python
+# Agenda de Contatos - Python (Desafio 1)
 
 Este projeto é uma **Agenda de Contatos** feita em Python utilizando
 listas, dicionários e funções para organizar nomes e telefones.
